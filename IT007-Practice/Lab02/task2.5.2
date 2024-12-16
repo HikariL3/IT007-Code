@@ -1,0 +1,17 @@
+#!/bin/sh
+
+echo "Enter your name: "
+read name
+echo "Enter your student ID: "
+read ID
+
+while [ "$ID" != "23520617" ]
+do
+     echo "Wrong ID, who the hell are you?"
+     read ID
+done
+
+echo "Now that is a correct ID"
+echo "You are $name"
+
+exit 0
